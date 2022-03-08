@@ -19,9 +19,6 @@ public class Ass1 {
     @BeforeTest
     public static void openChrom () {
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\Dvora.W10N-LNX-DVORAD\\Downloads\\chromedriver_win32\\chromedriver.exe");
-
-
-
     }
 
     /*@Test

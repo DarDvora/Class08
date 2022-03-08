@@ -12,7 +12,7 @@ public class Ass2 {
     private static WebDriver edgeDriver;
 
 
-    @BeforeClass
+    @BeforeTest
     public static void openEdge () {
         System.setProperty("webdriver.edge.driver", "C:\\Users\\Dvora.W10N-LNX-DVORAD\\Downloads\\edgedriver_win64\\msedgedriver.exe");
         edgeDriver = new EdgeDriver();
